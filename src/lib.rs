@@ -1,9 +1,6 @@
 
 use log::{Level, error, warn, info, debug, trace};
 
-#[cfg(target_arch = "wasm32")]
-
-
 pub mod prelude {
 	pub use log::{Level, error, warn, info, debug, trace};
 	pub use super::println;
